@@ -1,0 +1,42 @@
+.board {
+  min-width: 290px;
+  width: 330px;
+  max-height: 100%;
+  flex-basis: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.board_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.board_header_title {
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.board_header_title span {
+  color: #fff;
+}
+
+.board_header_title_more {
+  cursor: pointer;
+  position: relative;
+}
+
+.board_cards {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+}
